@@ -104,6 +104,11 @@
     </style>
 
     <canvas id="sakura"></canvas>
+    <script>
+        let sakura = document.querySelector('#sakura');
+        let ww = window.screen.width;
+        sakura.style.width = w + 'px';
+    </script>
     <!-- sakura shader -->
     <script id="sakura_point_vsh" type="x-shader/x_vertex">
         uniform mat4 uProjection;
